@@ -6,7 +6,7 @@ header {
 color: #FFFFFF;
 padding: 20px;
 display: flex;
-background-image: url("css_advanced/images/Background.png");
+background-image: url(.//images/Background.png);
 justify-content: space-between;
 align-items: center;
 }
