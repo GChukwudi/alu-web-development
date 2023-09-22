@@ -3,12 +3,17 @@ body {
     font-style: normal;
 }
 header {
-color: #FFFFFF;
-padding: 20px;
-display: flex;
-background-image: url(.//images/Background.png);
-justify-content: space-between;
-align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    background-image: url("./images/Background.png");
+    padding: 2% 5% 2% 5%;
+    filter: grayscale(100%);
+    position: absolute;
+    left: -0.025%;
+    right: -0.025%;
+    top: 0%;
+    bottom: -26.48%;
 }
 
 nav {
