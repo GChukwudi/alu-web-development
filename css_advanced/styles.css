@@ -1,30 +1,33 @@
+body {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+}
 .schooled_title {
     height: 151px;
     font-weight: 700;
     font-size: 120px;
-    line-height: 151px;
+    line-height: 150px;
     text-align: center;
     color: white;
     position: relative;
     z-index: 5;
+    top: 100px;
   }
-body {
-    font-family: "Source Sans Pro";
-    font-style: normal;
-}
 header {
     display: flex;
     flex-direction: row;
     flex: auto;
-    background-image: url("./images");
+    background-color: none;
+    background-image: url("./images/background.png");
     padding: 3% 7% 4% 5%;
     filter: grayscale(100%);
     position: absolute;
     left: -0.025%;
     right: -0.025%;
     top: 0%;
-    bottom: -26.48%;
-    z-index: 0;
+    bottom: -50.48%;
+    z-index: -1;
+    background-size: auto;
 }
 header .logo {
     flex: 1;
@@ -36,15 +39,13 @@ header .nav-urls {
     font-weight: 700;
     line-height: 15px;
     letter-spacing: 0px;
-    /* z-index: 1; */
-    text-transform: uppercase;
     text-align: right;
     justify-content: flex-end;
     display: flex;
     margin-right: 10px;
     width: 1103.41px;
     height: 29.46px;
-    top: 35.02px;
+    top: 3.02px;
     left: 171.59px;
     padding: 0px, 0px, 0px, 0px;
 }
@@ -52,6 +53,7 @@ header .nav-urls a {
     margin-left: 6%;
     margin-right: 1%;
     color: white;
+    font-weight: bold;
     text-decoration: none;
 }
 .section_header {
@@ -69,47 +71,42 @@ header .nav-urls a {
     );
     color: white;
   }
-  .schooled {
-    display: flex;
-    flex-direction: column;
-    padding-top: 5rem;
-  }
+.schooled {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5rem;
+ }
 .schooled_title{
   height: 151px;
   font-weight: 700;
-  font-size: l20px;
+  font-size: 90px;
   line-height: 150.84px;
   text-align: center;
+  top: 90px;
   color: rgba(255, 255, 255, 1);
 }
 .schooled_txt {
   height: 20px;
   position: relative;
-  margin-top: -15%;
+  margin-top: -2%;
   text-align: center;
   font-weight: 700;
   font-size: 12px;
   line-height: 20.11px;
   color: white;
   display: flex;
-  justify-content: space-evenly;
-  margin-left: 27%;
-  margin-right: 21%;
-  /* width: 49px
-  height: 20px
-  font: "Source Sans Pro"
-  top: 361px
-  left: 797px */
+  justify-content: space-around;
+  margin-left: 41%;
+  margin-right: 39%;
 }
 .reg_button {
   background: #c271ff;
-  /* border-radius: 35%; */
   border-radius: 24px;
   border: none;  
-  /* padding: -1rem; */
   color: #ffff;
   font-weight: 600;
-  font-size: x-large;
+  font-size: 13;
+  margin-top: 10%;
   box-shadow: 0px;
   position: relative;
   align-self: center;
@@ -117,8 +114,8 @@ header .nav-urls a {
   padding: 1rem 2rem;
   height: auto;
   width: auto;
-  margin-left: 27%;
-  margin-right: 21%;
+  margin-left: 32%;
+  margin-right: 29%;
 }
 .sec_col {
   color: #c271ff;
@@ -136,12 +133,12 @@ header .nav-urls a {
   line-height: 40.22px;
   /* top: 10%; */
 
-  font-size: 32px;
+  font-size: 20px;
   /* width: 261px;
   height: 40px;
   top: 631px;
   /* left: 604px; */
-} */
+}
 .pros_title .sec_col {
   font-weight: bold;
 }
@@ -151,10 +148,14 @@ header .nav-urls a {
   justify-content: center;
 }
 .pros_card {
-  width: 19%;
-  padding: 1.5% 4% 1.5% 4%;
+  /* width: 19%;
+  padding: 1.5% 4% 1.5% 4%; */
+  width: 1001px;
+  padding: 0% 0% 0% 0%;
   margin-bottom: 7rem;
   display: flex;
+  left: 217px;
+  top: 90%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
