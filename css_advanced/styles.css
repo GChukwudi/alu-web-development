@@ -16,7 +16,7 @@ header {
     display: flex;
     flex-direction: row;
     flex: auto;
-    background-image: url("./images/");
+    background-image: url("./images");
     padding: 3% 7% 4% 5%;
     filter: grayscale(100%);
     position: absolute;
