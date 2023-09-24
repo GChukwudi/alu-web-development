@@ -160,6 +160,7 @@ header .nav-urls a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  z-index: 1;
 }
 .presenter_sec {
   position: absolute;
