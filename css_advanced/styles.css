@@ -26,12 +26,12 @@ header {
     right: -0.025%;
     top: 0%;
     bottom: -50.48%;
-    z-index: -1;
+    z-index: 0;
     background-size: auto;
 }
 header .logo {
     flex: 1;
-    z-index: 2;
+    z-index: 0;
 }
 header .nav-urls {
     flex: 3;
@@ -70,6 +70,7 @@ header .nav-urls a {
       #071629 100%
     );
     color: white;
+    margin: -8px;
   }
 .schooled {
   display: flex;
@@ -164,6 +165,7 @@ header .nav-urls a {
   position: absolute;
   background-color: #c271ff;
   padding: 6%;
+  margin: -8px;
 }
 .presenter_block {
   display: flex;
@@ -232,31 +234,19 @@ header .nav-urls a {
   display: flex;
   /* flex-direction: row; */
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 .video_card {
   padding: 1rem;
   margin-top: 30%;
+  margin-bottom: 8%;
   position: relative;
   width: calc(40%);
   justify-content: space-evenly;
   text-align: left;
   display: flex;
   flex-direction: column;
-  max-width: 13%;
-}
-.video_card .diagonal {
-  padding: 1rem;
-  margin-top: 40%;
-  position: relative;
-  width: calc(40%);
-  margin-left: 20%;
-  margin-right: 80%;
-  justify-content: center;
-  text-align: right;
-  display: flex;
-  flex-direction: column;
-  max-width: 13%;
+  max-width: 15%;
 }
 .video_card h3 {
   font-weight: 700;
@@ -265,7 +255,7 @@ header .nav-urls a {
   margin-bottom: -1rem;
 }
 .video_card .video-title {
-  margin-top: -35%;
+  margin-top: -20%;
 }
 .video_card .video-desc {
   font-weight: 400;
@@ -277,9 +267,9 @@ header .nav-urls a {
   position: relative;
   z-index: 1;
   transform: translate(-1%);
-  margin-top: 1rem;
+  margin-top: -3rem;
   display: block;
-  top: -30%;
+  top: -26%;
   left: 33%;
 }
 .video_card .Author {
@@ -293,7 +283,6 @@ header .nav-urls a {
   width: 30px;
   height: 30px;
   top: 261px;
-  
 }
 .Author h4 {
   font-weight: 600;
@@ -306,7 +295,7 @@ header .nav-urls a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: -15%;
+  margin-top: -19%;
 }
 .duration {
   font-weight: 600;
@@ -320,6 +309,7 @@ header .nav-urls a {
   background: rgba(7, 22, 41, 1);
   padding: 2rem;
   margin-top: 2.66%;
+  margin: -8px;
 }
 .mem_sec .sec_col,
 .video_sec .sec_col {
@@ -385,7 +375,9 @@ header .nav-urls a {
   padding: 1rem;
   background-color: white;
   border: none;
-  justify-content: 10%;
+  left: 90px;
+  position: relative;
+  /* justify-content: center; */
 }
 .faq_item h3 {
   font-weight: bold;
@@ -394,4 +386,31 @@ header .nav-urls a {
 }
 .faq_item p {
   margin-top: -5%;
+  margin-right: 92px;
+}
+footer {
+  background: black;
+  padding: 0.9rem;
+  margin: -8px;
+}
+.footer_con {
+  display: flex;
+  flex-direction: column;
+}
+.nav_ft {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 8rem 4rem 8rem;
+}
+.footer_con p {
+  color: white;
+  opacity: 35.17%;
+  text-align: center;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+.nav_ft div a {
+  margin-left: 0.4rem;
+  margin-right: 0.5rem;
 }
